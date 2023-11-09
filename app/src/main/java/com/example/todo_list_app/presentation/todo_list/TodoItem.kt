@@ -11,6 +11,7 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -36,7 +37,7 @@ fun TodoItem(
                 verticalAlignment = Alignment.CenterVertically
             ) {
 
-                Text(text = todo.title, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                Text(text = todo.title, style = MaterialTheme.typography.headlineMedium)
                 Spacer(modifier = Modifier.width(8.dp))
 
                 IconButton(onClick = {
@@ -47,11 +48,11 @@ fun TodoItem(
             }
             todo.description?.let {
                 Spacer(modifier = Modifier.height(8.dp))
-                Text(text = it)
+                Text(text = it, fontSize = 18.sp)
             }
         }
         Checkbox(checked = todo.isDone, onCheckedChange = { isChecked ->
-            onEvent(TodoListEvent.OnDoneChange(todo,isChecked))
+            onEvent(TodoListEvent.OnDoneChange(todo, isChecked))
         })
     }
 }
