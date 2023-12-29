@@ -9,10 +9,10 @@
 
 <h2 align="center">Screen 📱</h2>
 
-<div>
-  <img src="https://github.com/KyneticHaze/Todo_List_App/assets/120178827/b60d51fe-c355-4013-a9ea-9089f83dbb7b" width="300">
-  <img src="https://github.com/KyneticHaze/Todo_List_App/assets/120178827/236c5cf4-7582-418d-8124-9860131a9e66" width="295">
-  <img src="https://github.com/KyneticHaze/Todo_List_App/assets/120178827/37422662-239b-4fc9-b290-b96f1c3c2522" width="300">
+<div align="center">
+  <img src="https://github.com/KyneticHaze/Todo_List_App/assets/120178827/b60d51fe-c355-4013-a9ea-9089f83dbb7b" width="250">
+  <img src="https://github.com/KyneticHaze/Todo_List_App/assets/120178827/236c5cf4-7582-418d-8124-9860131a9e66" width="245">
+  <img src="https://github.com/KyneticHaze/Todo_List_App/assets/120178827/37422662-239b-4fc9-b290-b96f1c3c2522" width="250">
 </div>
 
 # Architecture ⚒️
